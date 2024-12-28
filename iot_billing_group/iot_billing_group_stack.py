@@ -20,3 +20,4 @@ class IotBillingGroupStack(Stack):
         # Add tags to the billing group
         Tags.of(billing_group).add("Appname", "RST")
         Tags.of(billing_group).add("AppId", "38080")
+        Tags.of(billing_group).add("Env", "Dev")
